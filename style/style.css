@@ -205,9 +205,12 @@ main {
 }
 
 /* footer section style */
-.footerSection {
-    padding: 70px 250px;
+footer {
     background-color: #0B0223;
+}
+
+.footerSection {
+    /* padding: 70px 250px; */
     text-align: center;
 }
 
@@ -345,6 +348,11 @@ main {
     footer {
         padding: 0;
         width: 100%;
+        padding-left: 400px;
+        padding-right: 400px;
+
     }
+
+
 
 }
