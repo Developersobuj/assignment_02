@@ -211,7 +211,7 @@ main {
 /* footer style */
 
 footer {
-    background-color: green;
+    background-color: #0B0223;
     /* max-width: 1440px; */
 }
 
@@ -254,6 +254,7 @@ footer {
 .footer_list ul li {
     list-style-type: none;
     margin-right: 50px;
+    padding-bottom: 30px;
 }
 
 .footer_list ul li a {
@@ -275,6 +276,10 @@ footer {
 .privacySection ul li a {
     text-decoration: none;
     color: #ffffffff;
+}
+
+.iconBar {
+    padding-bottom: 20px;
 }
 
 .iconBar i {
