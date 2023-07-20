@@ -6,7 +6,10 @@
 }
 
 .primaryColour {
-    color: rgb(249, 72, 178);
+    /* color: rgb(249, 72, 178); */
+    background: -webkit-linear-gradient(#db53e7, #a84efc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -95,8 +98,13 @@ nav ul li a {
     /* padding: 50px 250px; */
 }
 
+.goat {
+    font-weight: bolder;
+}
+
 .banner_head {
     font-size: 48px;
+
 }
 
 .banner-descripition h1 {
@@ -131,7 +139,11 @@ main {
 }
 
 #funny_text {
-    color: rgb(249, 72, 178);
+    /* color: rgb(249, 72, 178); */
+    /* font-size: 72px; */
+    background: -webkit-linear-gradient(#e842f7, #a84efc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .card-section-header h1 {
