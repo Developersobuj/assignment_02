@@ -399,3 +399,46 @@ footer {
     }
 
 }
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        flex-direction: column;
+        padding: 50px;
+        /* border: 1px solid black; */
+    }
+
+    #logo {
+        padding-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding-bottom: 20px;
+    }
+
+    #card {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding-left: 50px;
+    }
+
+    .company {
+        grid-template-columns: repeat(4, 1fr);
+        /* padding: 50px; */
+    }
+
+    .hero-section {
+        flex-direction: row-reverse;
+    }
+
+    .hero-section-details {
+        padding: 20px;
+        text-align: center;
+    }
+
+}
