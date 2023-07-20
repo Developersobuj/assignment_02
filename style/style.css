@@ -427,6 +427,8 @@ footer {
         padding-left: 50px;
     }
 
+
+
     .company {
         grid-template-columns: repeat(4, 1fr);
         /* padding: 50px; */
